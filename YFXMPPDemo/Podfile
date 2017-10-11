@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+
+target 'YFXMPPDemo' do
+use_frameworks!
+
+pod 'XMPPFramework', :git => "https://github.com/robbiehanson/XMPPFramework.git", :branch => 'master'
+
+end
